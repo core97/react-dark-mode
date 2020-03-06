@@ -13,8 +13,9 @@ nav {
   display: flex;
   flex-direction: row;
   justify-content: center;
+  align-items: center;
   background-color: steelblue;
-  padding: 20px;
+  height: 10vh;
 }
 
 .dark-mode nav {
@@ -22,9 +23,8 @@ nav {
 }
 
 main {
-  padding: 0.5em;
   margin: 0 auto;
-  max-width: 1000px;
+  width: 100%;
   font-size: 1.2rem;
   line-height: 1.1;
   height: 90vh;
