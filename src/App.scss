@@ -3,11 +3,22 @@
   color: #333;
 }
 
+.dark-mode {
+  background-color: #1a1919;
+  color: #999;
+}
+
 nav {
   width: 100%;
   display: flex;
+  flex-direction: row;
+  justify-content: center;
   background-color: steelblue;
   padding: 20px;
+}
+
+.dark-mode nav {
+  background-color: #1b2938;
 }
 
 main {
