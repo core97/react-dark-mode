@@ -1,0 +1,20 @@
+.light-mode {
+  background-color: #fff;
+  color: #333;
+}
+
+nav {
+  width: 100%;
+  display: flex;
+  background-color: steelblue;
+  padding: 20px;
+}
+
+main {
+  padding: 0.5em;
+  margin: 0 auto;
+  max-width: 1000px;
+  font-size: 1.2rem;
+  line-height: 1.1;
+  height: 90vh;
+}
